@@ -1,13 +1,13 @@
-siteTitle = "Blog by Aftab"
-siteDescr = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+siteTitle = "Aftab Alam - fine web craftsmaship, since summer'o 2010"
+siteDescr = "engineering fine web, since summer'o 2010"
+siteDesc = "Full-stack Web Engineer. Javascript Fanboy. Perpetual Learner."
 siteAuthor = "Aftab Alam"
+siteAuthorCurr = "currently, @proptiger @makaan"
 
-siteTelegramUrl = "#"
-siteTwitterUrl = "#"
-siteGithubUrl = "#"
-siteEmailUrl = "#"
-siteRssUrl = "#"
-siteVkUrl = "#"
+siteTwitterUrl = "https://twitter.com/aftabbuddy"
+siteGithubUrl = "https://github.com/one-aalam"
+siteEmailUrl = "mailto:one@aalam.in"
+siteLinkedinUrl = "https://in.linkedin.com/in/oneaalam"
 
 googleAnalyticsId = ""
 

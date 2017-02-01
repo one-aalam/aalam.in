@@ -1,6 +1,20 @@
+html, body{
+	height: 100%;
+}
+body{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATklEQVQoU2O0O3X+PwMDA8MhM0NGEI0LMBKtEJsJD27YgW1R0DgEtwWrdUQrxGYLY8V5iDUdhghrKFOITfenmXFgW/jSF+H3DNEKsdkCAO99IAvXcD3VAAAAAElFTkSuQmCC) repeat;
+}
 .wrapper {
 	lost-center: 1070px;
+	height: 100%;
 }
+#react-mount{
+	height: 100%;
+}
+#react-mount div{
+	height: 100%;
+}
+
 .content {
 	lost-column: 2/3;
 }

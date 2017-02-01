@@ -8,6 +8,7 @@ import access from 'safe-access'
 import { config } from 'config'
 import SitePost from '../components/SitePost'
 import SiteSidebar from '../components/SiteSidebar'
+import SiteFace from '../components/SiteFace'
 
 class SiteIndex extends React.Component {
     render() {
@@ -39,9 +40,17 @@ class SiteIndex extends React.Component {
         })
 
         return (
-            <div>
-              <Helmet title={ config.siteTitle }/>
-              <SiteSidebar {...this.props}/>
+          <SiteFace title={config.siteTitle} segments={[]}/>
+        )
+    }
+}
+
+SiteIndex.propTypes = {
+    route: React.PropTypes.object,
+}
+
+/**
+ <SiteSidebar {...this.props}/>
               <div className='content'>
                 <div className='main'>
                   <div className='main-inner'>
@@ -49,13 +58,7 @@ class SiteIndex extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
-              )
-    }
-}
-
-SiteIndex.propTypes = {
-    route: React.PropTypes.object,
-}
+ *
+ */
 
 export default SiteIndex

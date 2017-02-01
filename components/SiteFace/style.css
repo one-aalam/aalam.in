@@ -1,0 +1,94 @@
+section {
+    width: 100%;
+    height: 100%;
+}
+section .container{
+    width: 100%;
+    height: 100%;
+}
+
+section .container .content{
+    height: 80%;
+    width: 100%;
+    margin-top: 5%;
+    background-color: white;
+    border-left: 15px solid darksalmon;
+    border-right: 15px solid darksalmon;
+    text-align: center;
+}
+
+.avatar img{
+    margin: 20px auto 0;
+}
+
+.intro h1, .intro h6
+{
+    margin: 10px;
+}
+
+.intro .avatar {
+    margin: 50px auto 0;
+    width: 220px;
+    height: 220px;
+    background-color: darksalmon;
+    padding: 5px;
+    border-radius: 110px;
+    overflow: hidden;
+    opacity: .8;
+    animation: colorchange 50s reverse;
+    -webkit-animation: colorchange 50s reverse;
+}
+
+.intro .me-name-and-hi{
+
+}
+
+.intro .me-things{
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+@keyframes colorchange
+{
+    0%   {background: darksalmon;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+    0%   {background: darksalmon;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+
+
+
+.fa {
+	margin-right: 5px;
+	text-align: center;
+	height: 24px;
+	width: 24px;
+	border-radius: 3px;
+	background: #f4f4f4;
+}
+.fa:hover {
+	background: #f4f4f4;
+}
+.fa {
+	border-bottom: 0;
+}
+.fa > i {
+	color: #606060;
+	font-size: 14px;
+	line-height: 24px;
+}
+.fa:hover a > i {
+	color: #444;
+}
